@@ -9,6 +9,8 @@ body{
     background-color: #2c3e50;
 }
 
+/* Header Section  */
+
 li{
     list-style:none;
     display:inline-block;
@@ -22,15 +24,16 @@ a{
 }
 
 .container{
-    max-width:1200px;
+    max-width:1400px;
     margin:0 auto;
     background-color: #fff;
-    text-align:center;
+    
 }
 
 header h1{
     padding:20px;
     color:#2c3e50;
+    text-align:center;
 }
 
 span{
@@ -39,8 +42,38 @@ span{
 
 .nav-menu{
     background-color: #fafafa;
+    text-align:center;
 }
 
 .nav-menu a:hover{
     color:#e74c3c;
+}
+
+/* About Section*/
+
+.about-text{
+    padding:0 50px;
+}
+
+.about-text h2{
+    color:#e74c3c;
+    text-transform: uppercase;
+    font-weight:300;
+    font-size:30px;
+    margin:30px 0;
+}
+
+.about-text p{
+    font-weight:400;
+    color:#2c3e50;
+    margin-bottom: 10px;
+}
+
+.about-text a{
+    color:#e74c3c;
+    font-weight:700;
+}
+
+.about-text a:hover{
+    color:#2c3e50;
 }
