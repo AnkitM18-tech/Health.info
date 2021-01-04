@@ -113,3 +113,19 @@ span{
     height:100%;
 }   /*in case of image stretching in small windows*/
 
+/*Footer Section*/
+.end-image{
+    width:80%;
+    margin:auto;
+}
+.end-image img{
+    width:100%;
+}
+footer{
+    background-color:#e74c3c;
+    text-align: center;
+    color:#fff;
+    padding:20px;
+    font-weight:700;
+    font-size:18px;
+}
